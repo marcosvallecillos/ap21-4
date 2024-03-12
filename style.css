@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos de la tabla */
+.redTable {
+    border: 2px solid #A40808;
+    background-color: #EEE7DB;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.redTable th {
+    border-bottom: 1px solid #A40808;
+    padding: 10px;
+}
+
+.redTable td {
+    border-bottom: 1px solid #A40808;
+    padding: 8px;
+}
+
+/* Estilos para el enlace de agregar nuevo registro */
+.add-link {
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #A40808;
+}
+
+.add-link img {
+    vertical-align: middle;
+}
+
+/* Estilos para las imágenes de acciones */
+.action-img {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para las imágenes de eliminar y editar */
+.delete-img,
+.edit-img {
+    width: 25px;
+}
